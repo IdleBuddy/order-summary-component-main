@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('/images/pattern-background-mobile.svg');
+    background-repeat: repeat-x;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.container {
+    width: 95%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.card {
+    padding: 18px;
+}
+
+.hero {
+    width: 100%;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.details {
+    margin-left: 20px;
+}
+
+.price, .plan, .icon {
+    margin-left: 10px;
+    text-align: center;
+}
+
+span {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: .8em;
+}
+
+.price {
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.content-wrap {
+    padding: 10px 0px;
+}
+
+.change {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: .8em;
+    padding: 20px 0px;
+    margin-left: 30%;
+}
+
+h2 {
+    text-align: center;
+    margin: 30px 0px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    color: hsl(224, 23%, 55%);
+}
+
+.img-wrap, .content-wrap, .change {
+    display: inline-block;
+}
+
+.block {
+    padding: 5px;
+    border-radius: 15px;
+    width: 100%;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.main-button {
+    width: 100%;
+    margin: 20px 0px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 1em;
+    box-shadow: 0px 10px 12px hsl(246, 88%, 68%);
+}
+
+.second-button {
+    width: 100%;
+    margin: 10px 0px;
+    background-color: white;
+    border: none;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    color: hsl(224, 23%, 55%);
+}
+
+a {
+    color: hsl(245, 75%, 52%);
+}
+
+.main-button:hover {
+    background-color:  hsl(245, 69%, 59%);
+    cursor: pointer;
+}
+
+.main-button:active {
+    background-color: hsl(245, 65%, 30%);
+    transform: translateY(5px);
+    box-shadow: 0px 5px 12px hsl(246, 88%, 68%);
+}
+
+a:hover {
+    color: hsl(245, 61%, 46%);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.second-button:hover {
+    cursor: pointer;
+    color: hsl(224, 19%, 39%);
+}
+
+.second-button:active {
+    color: hsl(223, 19%, 26%);
+}
+
+@media all and (min-width: 375px) {
+    body {
+        background-image: url(/images/pattern-background-desktop.svg);
+    }
+    .container {
+        max-width: 22rem;
+    }
+}
