@@ -34,8 +34,7 @@ Screenshot for Mobile
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Vercel Site](https://order-summary-component-main-dusky-psi.vercel.app/)
 
 ## My process
 
@@ -55,12 +54,8 @@ Find a way to keep my CSS Styles more organized and coherent.
 
 ### Useful resources
 
-
-
 ## Author
 
 - Frontend Mentor - [@IdleBuddy](https://www.frontendmentor.io/profile/IdleBuddy)
-
-
 
 ## Acknowledgments
